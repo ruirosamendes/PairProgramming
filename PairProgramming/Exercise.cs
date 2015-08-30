@@ -13,12 +13,12 @@ namespace PairProgramming
         public int Prop
         {
             get { return _prop; }
-            set { value = _prop; }
+            set { _prop = value; }
         }
 
         public Exercise(int prop)
         {
-            this.Prop = prop;
+            this._prop = prop;
         }
     }
 }
