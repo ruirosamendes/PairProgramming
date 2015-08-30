@@ -8,6 +8,17 @@ namespace PairProgramming
 {
     public class Exercise
     {
+        private int _prop;
 
+        public int Prop
+        {
+            get { return _prop; }
+            set { value = _prop; }
+        }
+
+        public Exercise(int prop)
+        {
+            this.Prop = prop;
+        }
     }
 }
